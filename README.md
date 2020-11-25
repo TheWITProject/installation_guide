@@ -42,6 +42,6 @@ _Instructions here..._
 _Also Postico_
 
 
-### Postgres for Windows Users
+## Postgres for Windows Users
 _Instructions here..._
 _Also pgAdmin_
