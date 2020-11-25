@@ -34,7 +34,7 @@ Now go to [Python section](#python3).
 ## Python3
 _Instructions here..._
 
-Mac users, head over to the [Postgres for Mac Users section](#postgres-for-mac-users). Windows, head over to the [Postgres for Windows Users section[(#postgres-for-windows-users).
+Mac users, head over to the [Postgres for Mac Users section](#postgres-for-mac-users). Windows, head over to the [Postgres for Windows Users section](#postgres-for-windows-users).
 
 
 ## Postgres for Mac Users
