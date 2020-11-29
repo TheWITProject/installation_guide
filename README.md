@@ -38,15 +38,17 @@ If you want, you can also go ahead and install the [Microsft Terminal](https://d
 
 _**HOWEVER**_ if you run into version issues or error codes like `Installation failed with error 0x80070003`, check out the [troubleshooting](https://docs.microsoft.com/en-us/windows/wsl/install-win10#troubleshooting-installation) section. Better yet, message @anoojpatel or come to his office hours for help.
 
-➡️ By now, you should have Linux running on your computer. Go to the [Brew section](#brew).
+➡️ By now, you should have Linux running on your computer. Go to the [Homebrew section](#homebrew).
 
 
-# Brew
+# Homebrew
+Package managers make it easy to install programs from our command lines.
 
-### Brew for Mac Users
+### Homebrew for Mac Users
+Unfortunately, Mac OS does not come with its own package manager, but we can install and use Homebrew. Check out the instructions on their [website](https://brew.sh/).
 
 ### Brew for Windows Users
-Because we have Linux (specifically Ubuntu 20.04), we can follow the standard brew install steps in our terminal (make sure you have launched `wsl` or are running the Ubuntu terminal).
+Because we have Linux (specifically Ubuntu 20.04), we can follow the standard Homebrew install steps in our terminal (make sure you have launched `wsl` or are running the Ubuntu terminal).
 
 **Note**, you will need to run the install command as the `root` user, meaning the highest privileged user. To do so, type `sudo -s` and then type in the password you made for your log in when we installed WSL.
 
@@ -56,9 +58,10 @@ Go [here](https://brew.sh/) and run the command in your terminal to start the in
 
 
 # Git
-_Instructions here..._
+Git is a version control software. It helps us keep track of changes to our work. Paired with GitHub, it is an excellent collaboration tool.
 
 ### Mac Users
+There are several ways to install git on Mac OS. You can see all of the options [here](https://git-scm.com/download/mac), but you can probably just use brew now that you have it installed: `brew install git`.
 
 ### Windows Users
 For WSL users, git should already be installed. Test this by typing `git` in the terminal to see a wall of options print out. If you don't see this, that's very strange. To fix this, just use brew to install it. Here is the the command: `brew install git`!
@@ -67,7 +70,9 @@ For WSL users, git should already be installed. Test this by typing `git` in the
 
 
 # Python3
-_Instructions here..._
+
+### Python3 for Mac OS
+Mac users continue to be very lucky here! Python 3.6, `pip`, the standard package manager for Python, and `venv`, the standard module used to create and manage lightweight virtual environments, are all installed by default.
 
 ### Python3 for Windows Users on WSL
 WSL will have Ubuntu 18.04 LTS, which luckily comes with Python 3.6 already installed, but it does not come with some of the modules that you may expect to get with other Python installations. We will still need to install `pip`, the standard package manager for Python, and `venv`, the standard module used to create and manage lightweight virtual environments.
@@ -80,13 +85,15 @@ Install `venv` by entering: `sudo apt install python3-venv`.
 
 ➡️ Mac users, head over to the [Postgres for Mac Users section](#postgres-for-mac-users). Windows users, head over to the [Postgres for Windows Users section](#postgres-for-windows-users).
 
+# Postgres
+Postgres is a SQL-based database software.
 
-## Postgres for Mac Users
+### Postgres for Mac Users
 _Instructions here..._
 _Also Postico_
 
 
-## Postgres for Windows Users
+### Postgres for Windows Users on WSL
 First, you'll want to install PostgreSQL onto WSL. To do so, follow [this](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql) instruction guide that Microsoft has laid out.
 
 First, you'll want to install PostgreSQL onto WSL. To do so, follow [this](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql) instruction guide that Microsoft has laid out.
