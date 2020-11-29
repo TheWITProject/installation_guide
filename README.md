@@ -29,6 +29,7 @@ When you have finished installing WSL 2, install `Ubuntu 20.04` from the Windows
 **NOTE 1** The tutorial will ask you to pick a distribution after installing WSL 1. We don't want to do that just yet. Continue to install WSL 2.
 
 **NOTE 2** At the top, it notes that you can skip all the tedious steps and use a simple `wsl --install` command in your windows command prompt if you join the Windows Insiders Program. This is up to you to decide! Consider it a fun journey to update your OS and get new features for Windows. However, things could break so I recommend sticking with the more boring steps unless you are confident.
+
 **NOTE 3** Remember to write down your login for the account you create at the end on your first run. You will need this and reinstalling sucks.
 
 If that all worked, congrats! You can launch it by typing `wsl` in a command prompt, or by searching for `Ubuntu` in your start menu and launching it (although it might be a little slow to show things).
