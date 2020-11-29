@@ -6,7 +6,7 @@
 <br />
 
 # Mac Users
-➡️ Lucky you! Head straight to the [Brew section](#brew).
+➡️ Lucky you! Head straight to the [Homebrew section](#homebrew).
 
 
 # Windows Users
@@ -86,16 +86,14 @@ Install `venv` by entering: `sudo apt install python3-venv`.
 ➡️ Mac users, head over to the [Postgres for Mac Users section](#postgres-for-mac-users). Windows users, head over to the [Postgres for Windows Users section](#postgres-for-windows-users).
 
 # Postgres
-Postgres is a SQL-based database software.
+Postgres is an open source object-relational database system that uses the SQL language.
 
 ### Postgres for Mac Users
-_Instructions here..._
-_Also Postico_
+The easiest way to install Postgres and its command line tools on Mac is by installing Postgres.App, a native application that will appear in your system menu bar. You can find detailed installation instructions [here](https://postgresapp.com/).
 
+You can use `psql` command line tools to explore your Postgres cluster and the databases it contains, but you can also install a GUI like [Postico](https://eggerapps.at/postico/). You can install Postico using the download link on their website. Once you have installed and opened Postico, you can connect to your Postgres by leaving all of the fields blank. Postico is maintained by the same deveopers as Postgres.App so the default settings are the same for both.
 
 ### Postgres for Windows Users on WSL
-First, you'll want to install PostgreSQL onto WSL. To do so, follow [this](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql) instruction guide that Microsoft has laid out.
-
 First, you'll want to install PostgreSQL onto WSL. To do so, follow [this](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql) instruction guide that Microsoft has laid out.
 
 Also note that [psql](https://www.postgresql.org/docs/10/app-psql.html) is an interactive terminal you can install om the WSL terminal to play with the PostgreSQL database. Wow, that's a lot of terminalception! 😮
