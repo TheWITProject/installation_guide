@@ -93,6 +93,8 @@ The easiest way to install Postgres and its command line tools on Mac is by inst
 
 You can use `psql` command line tools to explore your Postgres cluster and the databases it contains, but you can also install a GUI like [Postico](https://eggerapps.at/postico/). You can install Postico using the download link on their website. Once you have installed and opened Postico, you can connect to your Postgres by leaving all of the fields blank. Postico is maintained by the same deveopers as Postgres.App so the default settings are the same for both.
 
+<p align=center><img src="https://github.com/TheWITProject/installation_guide/blob/main/Screen%20Shot%202020-11-28%20at%208.58.35%20PM.png?raw=true" width=650/></p>
+
 ### Postgres for Windows Users on WSL
 First, you'll want to install PostgreSQL onto WSL. To do so, follow [this](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql) instruction guide that Microsoft has laid out.
 
